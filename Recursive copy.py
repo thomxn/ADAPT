@@ -5,4 +5,4 @@ def copytree(src, dst, symlinks=False, ignore=None):
         if os.path.isdir(s):
             shutil.copytree(s, d, symlinks, ignore)
         else:
-            shutil.copy2(s, d
+            shutil.copy2(s, d)
