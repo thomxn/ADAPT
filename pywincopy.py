@@ -34,6 +34,8 @@ print dirname1, "=>", dirname2
 # The CopyFile functionality doesn't seem to cope
 # with directories.
 #
+#You can comment all the previous lines (except import) and rename the dirname1, dirname2 to your choice.
+#dirname1 is the source and the other is the destination
 shell.SHFileOperation (
   (0, shellcon.FO_COPY, dirname1, dirname2, 0, None, None)
 )
