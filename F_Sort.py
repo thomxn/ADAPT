@@ -31,7 +31,7 @@ def sortfiles():
     
     for key in extCnt:
         
-        if len(extCnt[key])> 7 :# count to max limit of similar files in a folder
+        if len(extCnt[key])> n :# count to max limit of similar files in a folder
             
             #changing to Directory
             os.chdir(path)
