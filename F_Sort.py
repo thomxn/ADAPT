@@ -35,7 +35,7 @@ def sortfiles():
             
             #changing to Directory
             os.chdir(path)
-            n_folder= key[1:] + ' Folder'
+            n_folder= `len(extCnt[key])`+ ' ' + key[1:] + ' Folder'
             os.mkdir(n_folder)
                 
             for i in range(0, len(extCnt[key])):
