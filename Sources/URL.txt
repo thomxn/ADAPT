@@ -1,0 +1,2 @@
+PyQt5 Tutorial
+https://programmica.com/builds/pyqt5-tutorial/pdf/PyQt5Tutorial.pdf
