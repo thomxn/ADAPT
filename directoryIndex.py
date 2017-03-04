@@ -30,9 +30,10 @@ def indexer(root):
 
     return dir
 indexer('F:\Movies')
-with open ('index.txt', 'r') as f:
-    my_dict = json.loads(f)
-print my_dict
-
-
-# https://www.zippymoviez.us/forum/-22-tamil-camvcdpredvdscrwebrip/?page=4
+with open ('index.txt', 'w') as f:
+    json.dump(dir,f)
+with open ('index.txt', 'r') as ipf:
+    data = ipf.read()
+    js = json.loads(data)
+js['F:\Movies']['.png']+=10
+print js['F:\Movies']
